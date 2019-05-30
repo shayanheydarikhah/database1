@@ -1,0 +1,10 @@
+select COUNT(*)  from person;
+select COUNT(id) from person;
+select AVG(id) from person;
+select max(id) from person;
+select min(id) from person;
+select * from person WHERE id between 1 and 2;
+select REPLACE(Lastname,'a','b') from person WHERE Lastname= 'abcd';
+select concat(firstname ,' ', lastname) from person;
+select * from person order by id asc;
+select top 3 * from person order by id asc;
